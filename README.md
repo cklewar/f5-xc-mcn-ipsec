@@ -21,12 +21,10 @@ input data can be found in chapter [Prepare Terraform](#prepare-terraform).
 ## Prepare environment
 ----------------------
 
-### Clone F5XC module repository
+### Clone repository
 
-- Clone this repo with: `git clone https://github.com/cklewar/f5-xc-mcn-ipsec`
+- Clone this repo with: `git clone --recurse-submodules https://github.com/cklewar/f5-xc-mcn-ipsec`
 - Enter repository directory with: `cd f5-xc-mcn-ipsec`
-- Clone __modules__ repository with: `git clone https://github.com/cklewar/f5-xc-modules`
-- Rename __modules__ repository directory name with: `mv f5-xc-modules modules`
 
 ### F5XC Multi Cloud Use Case
 
