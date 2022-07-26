@@ -14,7 +14,7 @@ input data can be found in chapter [Prepare Terraform](#prepare-terraform).
 ## Requirements
 ---------------
 
-- [Terraform](https://www.terraform.io/downloads.html) >= 1.1.9
+- [Terraform](https://www.terraform.io/downloads.html) >= 1.2.3
 - [AWS-Authenaticator](https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.htmlaws-authenticator) >
   = 0.5.7.
 
