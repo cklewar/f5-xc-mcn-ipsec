@@ -21,6 +21,13 @@ input data can be found in chapter [Prepare Terraform](#prepare-terraform).
 ## Prepare environment
 ----------------------
 
+### Clone F5XC module repository
+
+- Clone this repo with: `git clone https://github.com/cklewar/f5-xc-mcn-ipsec`
+- Enter repository directory with: `cd f5-xc-mcn-ipsec`
+- Clone __modules__ repository with: `git clone https://github.com/cklewar/f5-xc-modules`
+- Rename __modules__ repository directory name with: `mv f5-xc-modules modules`
+
 ### F5XC Multi Cloud Use Case
 
 Generate F5XC API certificate and token by following below steps:
@@ -375,7 +382,7 @@ group aws {
 #### AWS
 
 Static routing towards AWS site needs manual adjustment. Below example Terraform output shows `private_ip_address` parameter.
-This IP is CEs SLO interface and a static route needs to be added pointing into according IPSec tunnel. 
+This IP is CEs SLO interface and a static route needs to be added pointing into according IPSec tunnel.
 
 ```bash
 Outputs:
@@ -404,7 +411,6 @@ routing-options {
 
 Static routing towards GCP site needs manual adjustment. Below example Terraform output shows `private_ip_address` parameter.
 This IP is CEs SLO interface and a static route needs to be added pointing into according IPSec tunnel.
-
 
 ````bash
 Outputs:
