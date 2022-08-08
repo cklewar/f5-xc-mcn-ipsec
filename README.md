@@ -43,7 +43,7 @@ Generate F5XC API certificate and token by following below steps:
 - Choose __API Token__ from available options and set a name and expiry date. Token will shown after creation. Save
   token for later use
 
-![F5XC_credentials](pictures/volterra_credentials.png "Create F5XC API credentials")
+![F5XC_credentials](https://github.com/cklewar/f5-xc-mcn-ipsec/blob/main/pictures/volterra_credentials.png "Create F5XC API credentials")
 
 ### AWS
 
